@@ -48,8 +48,9 @@
                 Console.SetCursorPosition(((int)ClassEnum.XX + 2), i);
                 Console.Write("#");
             }
+            retr();
         }
-        public void retr()
+        private void retr()
         {
             // возвращение
             if (Console.KeyAvailable)  

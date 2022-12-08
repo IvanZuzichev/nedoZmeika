@@ -9,7 +9,6 @@
             while(true)
             {
                 snake.Gran();
-                snake.retr();
                 snake.kvadrat();
              }
         }
